@@ -1,10 +1,5 @@
 # Comparative Analysis of Least Squares Optimization Techniques Using Python
 
-I built this project as part of my numerical analysis coursework to explore how different solvers behave on the same least-squares problem and to compare optimization methods like Gradient Descent and Newton’s method.  
-This helped me understand trade-offs between accuracy, convergence, and computation time across algorithms.
-
----
-
 ## Objective
 To compare six least-squares solvers (QR, SVD, Truncated SVD, Cholesky, Gradient Descent, and LGK) on a sparse data system, and then study optimization using Gradient Descent and Newton’s method on a nonlinear function.
 
