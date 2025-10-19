@@ -7,7 +7,7 @@ To compare six least-squares solvers (QR, SVD, Truncated SVD, Cholesky, Gradient
 
 ## Tasks Overview
 
-### 1️⃣ Least Squares Problem
+### Least Squares Problem
 - Constructed sparse matrices **A (2000×20)** and **B (2000×30)**, where B’s last 10 columns were generated as `A·C_a + 1e-6·C_b`.
 - Built three query vectors **q₁, q₂, q₃** = `B·x_i + 1e-5·c_i` with different sparsity levels (0.25, 0.6, 0.85).
 - Solved the system **B·x ≈ q** using:
